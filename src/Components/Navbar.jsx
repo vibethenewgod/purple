@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
 
         {/* Login / Join */}
-        <button className="text-gray-600 font-medium hover:text-gray-900 transition-colors duration-200 flex items-center space-x-2">
+        <button className="text-gray-600 font-medium hover:text-gray-900 transition-colors duration-200 flex items-center space-x-2 ">
           <FaUser className="text-gray-500" />
           <a href="#"><span>Log in | Join</span></a>
         </button>

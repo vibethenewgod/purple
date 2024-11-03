@@ -7,6 +7,7 @@ const Bvideo = () => {
       <video
         className="shadow-lg w-full h-[40vh] tablet:h-[30vh] laptop:h-[60vh] object-cover" 
         autoPlay
+        playsInline
         loop
         muted
         src={videoBg}
