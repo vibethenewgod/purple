@@ -3,9 +3,9 @@ import videoBg from '../assets/videoBg.mp4';
 
 const Bvideo = () => {
   return (
-    <div className="flex justify-center items-center bg-white w-screen h-[40vh] tablet:h-[30vh] laptop:h-[60vh] relative">
+    <div className="flex justify-center items-center bg-white w-screen h-[60vh] -mb-72 tablet:mb-0 laptop:mb-0 tablet:h-[30vh] laptop:h-[60vh] relative ">
       <video
-        className="shadow-lg w-full h-[40vh] tablet:h-[30vh] laptop:h-[60vh] object-cover" 
+        className="shadow-lg w-full h-[60vh] tablet:h-[30vh] laptop:h-[60vh] object-cover" 
         autoPlay
         playsInline
         loop

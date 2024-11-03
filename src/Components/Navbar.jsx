@@ -57,10 +57,10 @@ const Navbar = () => {
         </div>
 
         {/* Login / Join */}
-        <button className="text-gray-600 font-medium hover:text-gray-900 transition-colors duration-200 flex items-center space-x-2 ">
-          <FaUser className="text-gray-500" />
-          <a href="#"><span>Log in | Join</span></a>
-        </button>
+        <a href="#"><button className="text-gray-600 font-medium hover:text-gray-900 transition-colors duration-200 flex items-center space-x-2 ">
+         <FaUser className="text-gray-500" />
+          <span className="hidden tablet:inline">Log in | Join</span>
+          </button></a>
 
         {/* Cart Icon */}
         <div className="relative text-gray-600 hover:text-gray-900 transition duration-200 cursor-pointer">
